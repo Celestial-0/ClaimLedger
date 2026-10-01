@@ -1,0 +1,43 @@
+[
+  {
+    "sample_id": "locomo_tiny_001",
+    "conversation": {
+      "speaker_a": "Angela",
+      "speaker_b": "Brian",
+      "session_1_date_time": "2024-01-10 09:00",
+      "session_1": [
+        {
+          "speaker": "Angela",
+          "dia_id": "s1_d1",
+          "text": "I still live in Chapel Hill and manage the gift shop."
+        },
+        {
+          "speaker": "Brian",
+          "dia_id": "s1_d2",
+          "text": "That local art wall sounds great."
+        }
+      ],
+      "session_2_date_time": "2025-02-12 15:30",
+      "session_2": [
+        {
+          "speaker": "Angela",
+          "dia_id": "s2_d1",
+          "text": "I moved the shop to Durham this winter."
+        },
+        {
+          "speaker": "Brian",
+          "dia_id": "s2_d2",
+          "text": "That explains the new commute."
+        }
+      ]
+    },
+    "qa": [
+      {
+        "question": "Where did Angela move the shop?",
+        "answer": "Durham",
+        "category": 3,
+        "evidence": ["s2_d1"]
+      }
+    ]
+  }
+]

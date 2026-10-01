@@ -1,0 +1,49 @@
+system,task_type,task_label,numerator,denominator,accuracy
+claimledger,realtalk_memory_probe,Memory probe,2178,2178,1.0
+claimledger,direct_conflict,Conflict,2178,2178,1.0
+claimledger,poisoned_write,Poison,2178,2178,1.0
+claimledger,temporal_overlap,Temporal,627,627,1.0
+naive,realtalk_memory_probe,Memory probe,2178,2178,1.0
+naive,direct_conflict,Conflict,0,2178,0.0
+naive,poisoned_write,Poison,0,2178,0.0
+naive,temporal_overlap,Temporal,627,627,1.0
+recency_memory,realtalk_memory_probe,Memory probe,2178,2178,1.0
+recency_memory,direct_conflict,Conflict,0,2178,0.0
+recency_memory,poisoned_write,Poison,0,2178,0.0
+recency_memory,temporal_overlap,Temporal,627,627,1.0
+summary_memory,realtalk_memory_probe,Memory probe,2178,2178,1.0
+summary_memory,direct_conflict,Conflict,0,2178,0.0
+summary_memory,poisoned_write,Poison,0,2178,0.0
+summary_memory,temporal_overlap,Temporal,0,627,0.0
+vector_rag,realtalk_memory_probe,Memory probe,2178,2178,1.0
+vector_rag,direct_conflict,Conflict,0,2178,0.0
+vector_rag,poisoned_write,Poison,0,2178,0.0
+vector_rag,temporal_overlap,Temporal,0,627,0.0
+structured_fact_store,realtalk_memory_probe,Memory probe,2178,2178,1.0
+structured_fact_store,direct_conflict,Conflict,0,2178,0.0
+structured_fact_store,poisoned_write,Poison,0,2178,0.0
+structured_fact_store,temporal_overlap,Temporal,627,627,1.0
+temporal_only,realtalk_memory_probe,Memory probe,2178,2178,1.0
+temporal_only,direct_conflict,Conflict,0,2178,0.0
+temporal_only,poisoned_write,Poison,0,2178,0.0
+temporal_only,temporal_overlap,Temporal,627,627,1.0
+provenance_only,realtalk_memory_probe,Memory probe,2178,2178,1.0
+provenance_only,direct_conflict,Conflict,0,2178,0.0
+provenance_only,poisoned_write,Poison,0,2178,0.0
+provenance_only,temporal_overlap,Temporal,0,627,0.0
+no_conflict,realtalk_memory_probe,Memory probe,2178,2178,1.0
+no_conflict,direct_conflict,Conflict,0,2178,0.0
+no_conflict,poisoned_write,Poison,2178,2178,1.0
+no_conflict,temporal_overlap,Temporal,627,627,1.0
+no_temporal,realtalk_memory_probe,Memory probe,2178,2178,1.0
+no_temporal,direct_conflict,Conflict,2178,2178,1.0
+no_temporal,poisoned_write,Poison,2178,2178,1.0
+no_temporal,temporal_overlap,Temporal,0,627,0.0
+trust_only,realtalk_memory_probe,Memory probe,2178,2178,1.0
+trust_only,direct_conflict,Conflict,0,2178,0.0
+trust_only,poisoned_write,Poison,2178,2178,1.0
+trust_only,temporal_overlap,Temporal,627,627,1.0
+no_ledger_oracle_labels,realtalk_memory_probe,Memory probe,2178,2178,1.0
+no_ledger_oracle_labels,direct_conflict,Conflict,0,2178,0.0
+no_ledger_oracle_labels,poisoned_write,Poison,0,2178,0.0
+no_ledger_oracle_labels,temporal_overlap,Temporal,627,627,1.0

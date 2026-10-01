@@ -1,0 +1,471 @@
+{
+  "case_count": 2387,
+  "dataset": "REALTALK",
+  "metrics": {
+    "claimledger": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 7161,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "naive": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2805,
+        "pooled_value": 0.391705069124424,
+        "seed_max": 0.391705069124424,
+        "seed_min": 0.391705069124424
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "no_conflict": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 4983,
+        "pooled_value": 0.695852534562212,
+        "seed_max": 0.695852534562212,
+        "seed_min": 0.695852534562212
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "no_ledger_oracle_labels": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2805,
+        "pooled_value": 0.391705069124424,
+        "seed_max": 0.391705069124424,
+        "seed_min": 0.391705069124424
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "no_temporal": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 6534,
+        "pooled_value": 0.9124423963133641,
+        "seed_max": 0.9124423963133641,
+        "seed_min": 0.9124423963133641
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      }
+    },
+    "provenance_only": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2178,
+        "pooled_value": 0.30414746543778803,
+        "seed_max": 0.30414746543778803,
+        "seed_min": 0.30414746543778803
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      }
+    },
+    "recency_memory": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2805,
+        "pooled_value": 0.391705069124424,
+        "seed_max": 0.391705069124424,
+        "seed_min": 0.391705069124424
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "structured_fact_store": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2805,
+        "pooled_value": 0.391705069124424,
+        "seed_max": 0.391705069124424,
+        "seed_min": 0.391705069124424
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "summary_memory": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2178,
+        "pooled_value": 0.30414746543778803,
+        "seed_max": 0.30414746543778803,
+        "seed_min": 0.30414746543778803
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      }
+    },
+    "temporal_only": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2805,
+        "pooled_value": 0.391705069124424,
+        "seed_max": 0.391705069124424,
+        "seed_min": 0.391705069124424
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "trust_only": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 4983,
+        "pooled_value": 0.695852534562212,
+        "seed_max": 0.695852534562212,
+        "seed_min": 0.695852534562212
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 627,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      }
+    },
+    "vector_rag": {
+      "abstention_correctness": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "conflict_disclosure_rate": {
+        "denominator": 2178,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      },
+      "exact_active_count_accuracy": {
+        "denominator": 7161,
+        "numerator": 2178,
+        "pooled_value": 0.30414746543778803,
+        "seed_max": 0.30414746543778803,
+        "seed_min": 0.30414746543778803
+      },
+      "poison_activation_rate": {
+        "denominator": 2178,
+        "numerator": 2178,
+        "pooled_value": 1.0,
+        "seed_max": 1.0,
+        "seed_min": 1.0
+      },
+      "temporal_validity_accuracy": {
+        "denominator": 627,
+        "numerator": 0,
+        "pooled_value": 0.0,
+        "seed_max": 0.0,
+        "seed_min": 0.0
+      }
+    }
+  },
+  "run_count": 3,
+  "systems": [
+    "claimledger",
+    "naive",
+    "no_conflict",
+    "no_ledger_oracle_labels",
+    "no_temporal",
+    "provenance_only",
+    "recency_memory",
+    "structured_fact_store",
+    "summary_memory",
+    "temporal_only",
+    "trust_only",
+    "vector_rag"
+  ],
+  "task_counts": {
+    "direct_conflict": 726,
+    "poisoned_write": 726,
+    "realtalk_memory_probe": 726,
+    "temporal_overlap": 209
+  }
+}

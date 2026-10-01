@@ -1,0 +1,13 @@
+{
+  "config_hash": "26da05e8987ed94c93d2f64c9234562ee3887ea0ffaa8dadc25c185a7cc87192",
+  "created_at_utc": "2026-09-21T04:41:37+00:00",
+  "dataset_hashes": {
+    "C:\\Users\\YASH\\Code\\Work\\Research\\Claimledger\\data\\derived\\realtalk_memory_probe_cases.jsonl": "030ac8bb1c373818f9aeb5cb120024731b8420697d4bfb7c4d6f08c6cfa22474"
+  },
+  "git_commit": "e9c3944e58b94e6e7c7bb50cc18a7e24c93bdd8a",
+  "model": null,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python_version": "3.11.15",
+  "run_id": "claimledger-realtalk-realtalk_memory_probes-seed2",
+  "seed": 2
+}

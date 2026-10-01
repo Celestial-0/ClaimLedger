@@ -1,0 +1,50 @@
+[
+  {
+    "activation_rate": 1.0,
+    "mode": "direct",
+    "n_benign": 0,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 0,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 1,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 3,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 5,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 10,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 25,
+    "n_seeds": 1
+  },
+  {
+    "activation_rate": 0.0,
+    "mode": "escalation",
+    "n_benign": 50,
+    "n_seeds": 1
+  }
+]

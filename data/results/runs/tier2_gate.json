@@ -1,0 +1,8 @@
+{
+  "total_records": 47568,
+  "cells_expected": 54,
+  "cells_found": 54,
+  "gate_failures": 0,
+  "problems": [],
+  "pass": true
+}
