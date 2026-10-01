@@ -1,0 +1,8 @@
+{"mode": "direct", "n_benign": 0, "payload_active": true, "payload_flagged": false, "payload_status": "active", "seed": 0}
+{"mode": "escalation", "n_benign": 0, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}
+{"mode": "escalation", "n_benign": 1, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}
+{"mode": "escalation", "n_benign": 3, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}
+{"mode": "escalation", "n_benign": 5, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}
+{"mode": "escalation", "n_benign": 10, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}
+{"mode": "escalation", "n_benign": 25, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}
+{"mode": "escalation", "n_benign": 50, "payload_active": false, "payload_flagged": true, "payload_status": "quarantined", "seed": 0}

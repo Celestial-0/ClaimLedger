@@ -1,0 +1,130 @@
+{
+  "completed_cells": 6552,
+  "config": {
+    "limit": null,
+    "max_chars": 24000,
+    "max_output_tokens": 256,
+    "num_ctx": 8192,
+    "prompt_cache_isolation": "deterministic per-cell nonce",
+    "response_format": {
+      "properties": {
+        "answer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "answer"
+      ],
+      "type": "object"
+    },
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 180,
+    "top_k": 8
+  },
+  "created_at_utc": "2026-08-23T16:23:25+00:00",
+  "dataset": "realtalk",
+  "last_updated_utc": "2026-08-25T21:48:06+00:00",
+  "models": [
+    "qwen3:4b",
+    "gemma3:4b",
+    "phi4-mini:latest"
+  ],
+  "no_synthetic_qa": true,
+  "ollama_models": {
+    "gemma3:4b": {
+      "capabilities": [
+        "completion",
+        "vision"
+      ],
+      "details": {
+        "family": "gemma3",
+        "format": "gguf",
+        "parameter_size": "4.3B",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+      "model_info": {
+        "gemma3.context_length": 131072,
+        "general.architecture": "gemma3",
+        "general.file_type": 15,
+        "general.parameter_count": 4299915632,
+        "general.quantization_version": 2
+      },
+      "modified_at": "2026-08-12T09:14:50.7131791+05:30",
+      "name": "gemma3:4b",
+      "size": 3338801804
+    },
+    "phi4-mini:latest": {
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "family": "phi3",
+        "format": "gguf",
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "78fad5d182a7c33065e153a5f8ba210754207ba9d91973f57dffa7f487363753",
+      "model_info": {
+        "general.architecture": "phi3",
+        "general.file_type": 15,
+        "general.parameter_count": 3836021856,
+        "general.quantization_version": 2,
+        "general.size_label": "mini"
+      },
+      "modified_at": "2026-08-12T09:12:38.8995709+05:30",
+      "name": "phi4-mini:latest",
+      "size": 2491876774
+    },
+    "qwen3:4b": {
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "family": "qwen3",
+        "format": "gguf",
+        "parameter_size": "4.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "model_info": {
+        "general.architecture": "qwen3",
+        "general.file_type": 15,
+        "general.parameter_count": 4022468096,
+        "general.quantization_version": 2,
+        "general.size_label": "4B",
+        "qwen3.context_length": 262144
+      },
+      "modified_at": "2026-08-12T09:24:27.0558559+05:30",
+      "name": "qwen3:4b",
+      "size": 2497293931
+    }
+  },
+  "run_id": "tier2-realtalk-v1",
+  "schema_version": "1.0",
+  "seeds": [
+    0
+  ],
+  "source_path": "data\\dataset\\realtalk\\processed",
+  "source_sha256": {
+    "data\\dataset\\realtalk\\processed\\Chat_10_Fahim_Muhhamed.json": "26135a9e3482f40bea4c71de570a2d994a361848111067e60587be1dd82a0127",
+    "data\\dataset\\realtalk\\processed\\Chat_1_Emi_Elise.json": "4e947998a751a1ba2c3710fc873b90fbcbc234fda7a5e4e75db2b762e0f25a36",
+    "data\\dataset\\realtalk\\processed\\Chat_2_Kevin_Elise.json": "4ac6e319c206731aa9a025c93325eb1edb43686cf39473f058c87ae7deb2d62a",
+    "data\\dataset\\realtalk\\processed\\Chat_3_Kevin_Paola.json": "10c9208016538cbe7a28aafa6cfd72587b072677964c36ec242159fdf58961f2",
+    "data\\dataset\\realtalk\\processed\\Chat_4_Emi_Paola.json": "80aa012ed6a918f5b317bd942b4d4811a158d27a6e07b7a5c6182994107a9367",
+    "data\\dataset\\realtalk\\processed\\Chat_5_Nicolas_Nebraas.json": "32dd7c45786b1a26861dc1574a1bb698a855196fd2ae3fc0c091f3c9ab2d6d06",
+    "data\\dataset\\realtalk\\processed\\Chat_6_Vanessa_Nicolas.json": "9d5ee072ab5a0667ef71d5644d7cd3a4c6777a1e6e2252bf306f310d982e40ac",
+    "data\\dataset\\realtalk\\processed\\Chat_7_Nebraas_Vanessa.json": "b5716bb093217980e747dec0d98996829b569febc09587a025efc6b79806e9ce",
+    "data\\dataset\\realtalk\\processed\\Chat_8_Akib_Muhhamed.json": "814f64ad7e8a46f0398f550fe84184e2ba495a292290b9ff96ffc95448280800",
+    "data\\dataset\\realtalk\\processed\\Chat_9_Fahim_Akib.json": "05b9b4331bf0e25a2a64dc89c404622c83a61ab5e7c935fb7d844449caf6dd39"
+  },
+  "strategies": [
+    "claimledger",
+    "lexical",
+    "recency"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "config_hash": "8c7d1f0ea65622b32a9d1a6616c649d332404c09cb471f0cd27fe855f97cde94",
+  "created_at_utc": "2026-08-30T00:06:03+00:00",
+  "dataset_hashes": {},
+  "git_commit": "79ebfe598183e7114951a0dd18c6a127ae850be6",
+  "model": null,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python_version": "3.11.15",
+  "repetitions": 30,
+  "result_path": "C:\\Users\\YASH\\Code\\Work\\Research\\Claimledger\\data\\results\\performance_measurements.json",
+  "run_id": "claimledger-performance-realtalk-release",
+  "scales": [
+    100,
+    1000,
+    5000,
+    20000
+  ],
+  "seed": 20260822
+}

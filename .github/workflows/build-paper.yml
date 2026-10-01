@@ -1,0 +1,53 @@
+name: Build Paper PDF
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build-paper:
+    name: Compile LaTeX via TeX Live / pdfLaTeX (Overleaf Standard)
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Compile Paper (Overleaf Engine)
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: ClaimLedger.tex
+          working_directory: paper/src
+
+      - name: Prepare ClaimLedger.pdf
+        run: cp paper/src/ClaimLedger.pdf ClaimLedger.pdf
+
+      - name: Upload Workflow Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: ClaimLedger.pdf
+          path: ClaimLedger.pdf
+          archive: false
+          if-no-files-found: error
+
+      - name: Publish PDF to GitHub Release
+        if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: v1.0.0
+          name: "ClaimLedger v1.0.0"
+          body: "Official manuscript build of ClaimLedger compiled via TeX Live / pdfLaTeX (Overleaf standard engine)."
+          files: ClaimLedger.pdf
+          make_latest: true

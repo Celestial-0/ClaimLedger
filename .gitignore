@@ -1,0 +1,43 @@
+# Python virtual environments & caches
+.venv/
+code/.venv/
+__pycache__/
+code/src/**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv-cache/
+code/.uv-cache/
+*.egg-info/
+artifacts/
+
+# Databases
+*.sqlite
+*.sqlite3
+
+# LaTeX build outputs
+paper/build/
+
+# Local datasets and derived inputs; retain layout and provenance notes in version control.
+data/*
+!data/README.md
+!data/dataset/
+data/dataset/*
+!data/dataset/README.md
+!data/derived/
+data/derived/*
+!data/derived/README.md
+!data/results/
+!data/results/**
+!data/manifests/
+data/manifests/*
+!data/manifests/*.json
+
+# submission build artifacts
+submission/
+
+
+# Raw verbose LLM generation traces (exceed GitHub 100MB file limits)
+raw_outputs.jsonl
+**/raw_outputs.jsonl

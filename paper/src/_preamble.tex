@@ -1,0 +1,118 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amsfonts}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,backgrounds,calc}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\do\-\do\_}
+\makeatother
+\usepackage{verbatim}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\hyphenation{Claim-Ledger prov-e-nance bi-tem-po-ral super-ses-sion quar-an-tine re-trieval-aug-mented IEEE-Xplore}
+\emergencystretch=1.5em
+\hbadness=3000
+\raggedbottom
+\setcounter{topnumber}{4}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{6}
+
+\renewcommand{\topfraction}{0.95}
+
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.90}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\dblfloatpagefraction}{0.90}
+\setcounter{dbltopnumber}{3}
+
+\definecolor{clblue}{HTML}{EEF5FB}
+\definecolor{clgreen}{HTML}{EFF7F0}
+\definecolor{clgold}{HTML}{FFF7E6}
+\definecolor{clred}{HTML}{FBEFEF}
+\definecolor{clline}{HTML}{4A5568}
+\definecolor{chartblue}{HTML}{3182CE}
+\definecolor{chartgold}{HTML}{DD6B20}
+\definecolor{chartred}{HTML}{E53E3E}
+\definecolor{chartpurple}{HTML}{805AD5}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\tikzset{
+  clstage/.style={
+    draw=clline,
+    rounded corners=2pt,
+    align=center,
+    font=\sffamily\footnotesize,
+    minimum height=10mm,
+    text width=25mm,
+    inner sep=3pt,
+    fill=clblue
+  },
+  clstore/.style={
+    draw=clline,
+    rounded corners=2pt,
+    align=center,
+    font=\sffamily\footnotesize\bfseries,
+    minimum height=11mm,
+    text width=27mm,
+    inner sep=3pt,
+    fill=clgreen
+  },
+  cldecision/.style={
+    draw=clline,
+    rounded corners=2pt,
+    align=center,
+    font=\sffamily\footnotesize,
+    minimum height=10mm,
+    text width=25mm,
+    inner sep=3pt,
+    fill=clgold
+  },
+  clstate/.style={
+    draw=clline,
+    rounded corners=2pt,
+    align=center,
+    font=\sffamily\footnotesize,
+    minimum height=8mm,
+    text width=20mm,
+    inner sep=2.5pt,
+    fill=black!2
+  },
+  clstatewarn/.style={clstate, fill=clred},
+  cllabel/.style={font=\sffamily\scriptsize, text=black!70, align=center},
+  cltag/.style={font=\sffamily\scriptsize, fill=white, inner sep=1.5pt, text=black!75},
+  clarrow/.style={-{Latex[length=2.2mm]}, draw=clline, line width=0.45pt},
+  cldash/.style={-{Latex[length=2.2mm]}, draw=clline, line width=0.4pt, dashed}
+}
+
+\definecolor{orcidlogocol}{HTML}{A6CE39}
+\newcommand{\orcidicon}[1]{%
+  \href{https://orcid.org/#1}{%
+    \raisebox{0.1ex}{%
+      \begin{tikzpicture}[x=1.15ex, y=1.15ex, baseline=-0.05ex]
+        \fill[orcidlogocol] (0.5,0.5) circle [radius=0.48];
+        \node[text=white, font=\sffamily\bfseries, inner sep=0pt] at (0.5,0.48) {\scalebox{0.52}{iD}};
+      \end{tikzpicture}%
+    }%
+  }%
+}
+
+\title{ClaimLedger: A Provenance-Aware, Bitemporal Claim-Integrity Layer for Agent Memory}
+
+\author{Yash Kumar Singh\,\orcidicon{0009-0002-7375-9563},~\IEEEmembership{Student Member,~IEEE}%
+\thanks{Yash Kumar Singh is an independent researcher\newline (e-mail: \href{mailto:yashkumarsingh.work@gmail.com}{yashkumarsingh.work@gmail.com}).}}
+
+\markboth{IEEE Transactions on Knowledge and Data Engineering}{Singh: ClaimLedger: A Provenance-Aware, Bitemporal Claim-Integrity Layer}
+
+\begin{document}
+\maketitle

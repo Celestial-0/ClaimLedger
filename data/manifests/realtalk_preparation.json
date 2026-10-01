@@ -1,0 +1,51 @@
+{
+  "category_counts": {
+    "1": 300,
+    "2": 318,
+    "3": 108
+  },
+  "conversation_count": 10,
+  "dataset": "REALTALK",
+  "derived_output": "data/derived/realtalk_memory_probe_cases.jsonl",
+  "derived_output_sha256": "030ac8bb1c373818f9aeb5cb120024731b8420697d4bfb7c4d6f08c6cfa22474",
+  "evidence_link_count": 1838,
+  "generated_case_count": 2387,
+  "generator": "code/src/datasets/realtalk_adapter.py",
+  "human_annotated_questions_used": true,
+  "llm_used_for_generation": false,
+  "processed_input_directory": "data/dataset/realtalk/processed",
+  "processed_input_sha256": {
+    "data/dataset/realtalk/processed/Chat_10_Fahim_Muhhamed.json": "26135a9e3482f40bea4c71de570a2d994a361848111067e60587be1dd82a0127",
+    "data/dataset/realtalk/processed/Chat_1_Emi_Elise.json": "4e947998a751a1ba2c3710fc873b90fbcbc234fda7a5e4e75db2b762e0f25a36",
+    "data/dataset/realtalk/processed/Chat_2_Kevin_Elise.json": "4ac6e319c206731aa9a025c93325eb1edb43686cf39473f058c87ae7deb2d62a",
+    "data/dataset/realtalk/processed/Chat_3_Kevin_Paola.json": "10c9208016538cbe7a28aafa6cfd72587b072677964c36ec242159fdf58961f2",
+    "data/dataset/realtalk/processed/Chat_4_Emi_Paola.json": "80aa012ed6a918f5b317bd942b4d4811a158d27a6e07b7a5c6182994107a9367",
+    "data/dataset/realtalk/processed/Chat_5_Nicolas_Nebraas.json": "32dd7c45786b1a26861dc1574a1bb698a855196fd2ae3fc0c091f3c9ab2d6d06",
+    "data/dataset/realtalk/processed/Chat_6_Vanessa_Nicolas.json": "9d5ee072ab5a0667ef71d5644d7cd3a4c6777a1e6e2252bf306f310d982e40ac",
+    "data/dataset/realtalk/processed/Chat_7_Nebraas_Vanessa.json": "b5716bb093217980e747dec0d98996829b569febc09587a025efc6b79806e9ce",
+    "data/dataset/realtalk/processed/Chat_8_Akib_Muhhamed.json": "814f64ad7e8a46f0398f550fe84184e2ba495a292290b9ff96ffc95448280800",
+    "data/dataset/realtalk/processed/Chat_9_Fahim_Akib.json": "05b9b4331bf0e25a2a64dc89c404622c83a61ab5e7c935fb7d844449caf6dd39"
+  },
+  "question_count": 726,
+  "raw_file_count": 10,
+  "raw_input_directory": "data/dataset/realtalk/raw",
+  "raw_input_sha256": {
+    "data/dataset/realtalk/raw/Chat_10_Fahim_Muhhamed.xlsx": "2c211214a545e2b45c9bcd736465b4438d269883be976cd5988ebe5a13d55387",
+    "data/dataset/realtalk/raw/Chat_1_Emi_Elise.xlsx": "af45d39df8398ecd2bab8fcc217edc453bc6e3b9558dc5ac86004deb6e9ea465",
+    "data/dataset/realtalk/raw/Chat_2_Kevin_Elise.xlsx": "997cb077b4ff3f2879caf38e33332c390b9a7ce0e4f91e5e0c90ffcb966428db",
+    "data/dataset/realtalk/raw/Chat_3_Kevin_Paola.xlsx": "20e81531cf3002b8138f2de24a2beeb3013c8e6cd91e484bec1e3b0d60c10423",
+    "data/dataset/realtalk/raw/Chat_4_Emi_Paola.xlsx": "0123cad039a7f79f83764b58249ef952a2fab0b152bb8eb4fcb459c2728882e3",
+    "data/dataset/realtalk/raw/Chat_5_Nicolas_Nebraas.xlsx": "e661d460e99b9b91366181abd2f24b24794bc66ce78694eeadb7d48173332a5a",
+    "data/dataset/realtalk/raw/Chat_6_Vanessa_Nicolas.xlsx": "98cb6df03235556a370cf8c17e82a80da7c8d699cbc6e0d359b6f62e9d9835c6",
+    "data/dataset/realtalk/raw/Chat_7_Nebraas_Vanessa.xlsx": "dbb1ea9f070a044c06b5892339eaf3301d7c81a7285a20a72644c867252e9d0a",
+    "data/dataset/realtalk/raw/Chat_8_Akib_Muhhamed.xlsx": "f7548f7af307aee634ba250fe1f528763ab346364b3f6fd22202f827d1977e57",
+    "data/dataset/realtalk/raw/Chat_9_Fahim_Akib.xlsx": "8e2e6c1fc1702716fd6ed057e8e71745d509eb28369cb307ae7ba25a15560cb4"
+  },
+  "session_count": 219,
+  "skipped_question_count": 2,
+  "source_commit": "b903e06a9770bf4e5fe9018c3e132889666d3b4a",
+  "source_repository": "https://github.com/danny911kr/REALTALK",
+  "temporal_case_count": 209,
+  "turn_count": 8944,
+  "unresolved_evidence_count": 142
+}

@@ -1,0 +1,17 @@
+{
+  "source_summary": "data\\results\\runs\\tier2_summary.csv",
+  "cells": 18,
+  "datasets": [
+    "realtalk",
+    "locomo",
+    "longmemeval_s",
+    "longmemeval_m",
+    "longmemeval_oracle"
+  ],
+  "figures": [
+    "figure_multillm_reader_quality",
+    "figure_multillm_abstention"
+  ],
+  "note": "Model means per dataset x strategy; clustered CIs land in Phase H.",
+  "export_errors": []
+}

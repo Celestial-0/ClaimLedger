@@ -1,0 +1,119 @@
+{
+  "completed_cells": 17874,
+  "config": {
+    "limit": null,
+    "max_chars": 24000,
+    "max_output_tokens": 256,
+    "num_ctx": 8192,
+    "prompt_cache_isolation": "deterministic per-cell nonce",
+    "response_format": {
+      "properties": {
+        "answer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "answer"
+      ],
+      "type": "object"
+    },
+    "temperature": 0.0,
+    "think": false,
+    "timeout_s": 180,
+    "top_k": 8
+  },
+  "created_at_utc": "2026-08-23T22:16:46+00:00",
+  "dataset": "locomo",
+  "last_updated_utc": "2026-08-25T21:48:41+00:00",
+  "models": [
+    "qwen3:4b",
+    "gemma3:4b",
+    "phi4-mini:latest"
+  ],
+  "no_synthetic_qa": true,
+  "ollama_models": {
+    "gemma3:4b": {
+      "capabilities": [
+        "completion",
+        "vision"
+      ],
+      "details": {
+        "family": "gemma3",
+        "format": "gguf",
+        "parameter_size": "4.3B",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+      "model_info": {
+        "gemma3.context_length": 131072,
+        "general.architecture": "gemma3",
+        "general.file_type": 15,
+        "general.parameter_count": 4299915632,
+        "general.quantization_version": 2
+      },
+      "modified_at": "2026-08-12T09:14:50.7131791+05:30",
+      "name": "gemma3:4b",
+      "size": 3338801804
+    },
+    "phi4-mini:latest": {
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "details": {
+        "family": "phi3",
+        "format": "gguf",
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "78fad5d182a7c33065e153a5f8ba210754207ba9d91973f57dffa7f487363753",
+      "model_info": {
+        "general.architecture": "phi3",
+        "general.file_type": 15,
+        "general.parameter_count": 3836021856,
+        "general.quantization_version": 2,
+        "general.size_label": "mini"
+      },
+      "modified_at": "2026-08-12T09:12:38.8995709+05:30",
+      "name": "phi4-mini:latest",
+      "size": 2491876774
+    },
+    "qwen3:4b": {
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "details": {
+        "family": "qwen3",
+        "format": "gguf",
+        "parameter_size": "4.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "model_info": {
+        "general.architecture": "qwen3",
+        "general.file_type": 15,
+        "general.parameter_count": 4022468096,
+        "general.quantization_version": 2,
+        "general.size_label": "4B",
+        "qwen3.context_length": 262144
+      },
+      "modified_at": "2026-08-12T09:24:27.0558559+05:30",
+      "name": "qwen3:4b",
+      "size": 2497293931
+    }
+  },
+  "run_id": "tier2-locomo-v1",
+  "schema_version": "1.0",
+  "seeds": [
+    0
+  ],
+  "source_path": "data\\dataset\\locomo\\locomo10.json",
+  "source_sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+  "strategies": [
+    "claimledger",
+    "lexical",
+    "recency"
+  ]
+}
